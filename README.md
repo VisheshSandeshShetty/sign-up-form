@@ -6,4 +6,4 @@ Mandatory fields are marked with asterisk(*).
 E-mail must be of the form user@example.com.
 Password is unrestricted however when you enter it, it is hidden using dots.
 
-    Clicking on 'SUBMIT' leads to a nice present!
+Clicking on 'SUBMIT' leads to a nice present. Make sure to claim it!
