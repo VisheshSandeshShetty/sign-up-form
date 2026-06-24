@@ -1,0 +1,61 @@
+body{
+    padding:0;
+    margin:0;
+    height:100vh;
+    display: flex;
+    background-color: azure;
+}
+
+.image-section{
+    width: 40%;
+    background-image: url(./images/bike.jpeg);
+    background-size: cover;
+    border: 5px solid black;
+}
+
+.form-section{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    box-sizing: border-box;
+}
+
+h1,h3{
+    color: black;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+h3{
+    font-style: italic;
+}
+form{
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 20px;
+    padding: 30px;
+    border: 5px solid black;
+    border-radius: 30px;
+
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+button{
+    border-radius: 15px;
+    padding:10px;
+    background-color: green;
+    color:white;
+    margin:20px;
+}
